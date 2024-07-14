@@ -17,6 +17,8 @@ public class CrossBrowsing {
         driver.get("https://www.facebook.com");
         String title=driver.getTitle();
         System.out.println(title);
+        System.out.println("test passed");
+
         driver.quit();
 
 
